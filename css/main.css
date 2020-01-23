@@ -30,4 +30,17 @@ body{
 .img-flex{
   display: block;
   width: 100%;
+  position: relative;
+}
+
+figcaption{
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  max-width: 15em;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+
 }
